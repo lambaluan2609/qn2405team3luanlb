@@ -1,0 +1,32 @@
+[
+  { "label": "Hanoi, Vietnam", "value": "Asia/Ho_Chi_Minh", "gmt": "+07:00" },
+  { "label": "Tokyo, Japan", "value": "Asia/Tokyo", "gmt": "+09:00" },
+  { "label": "Arizona, US", "value": "America/Phoenix", "gmt": "-07:00" },
+  { "label": "New York, US", "value": "America/New_York", "gmt": "-04:00" },
+  { "label": "London, UK", "value": "Europe/London", "gmt": "+01:00" },
+  { "label": "Berlin, Germany", "value": "Europe/Berlin", "gmt": "+02:00" },
+  {
+    "label": "Sydney, Australia",
+    "value": "Australia/Sydney",
+    "gmt": "+10:00"
+  },
+  { "label": "Beijing, China", "value": "Asia/Shanghai", "gmt": "+08:00" },
+  { "label": "Moscow, Russia", "value": "Europe/Moscow", "gmt": "+03:00" },
+  { "label": "Paris, France", "value": "Europe/Paris", "gmt": "+02:00" },
+  {
+    "label": "Los Angeles, US",
+    "value": "America/Los_Angeles",
+    "gmt": "-07:00"
+  },
+  { "label": "Mumbai, India", "value": "Asia/Kolkata", "gmt": "+05:30" },
+  {
+    "label": "São Paulo, Brazil",
+    "value": "America/Sao_Paulo",
+    "gmt": "-03:00"
+  },
+  {
+    "label": "Johannesburg, South Africa",
+    "value": "Africa/Johannesburg",
+    "gmt": "+02:00"
+  }
+]

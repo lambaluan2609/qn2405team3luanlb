@@ -1,0 +1,74 @@
+.card.card-break {
+  border-color: #1b1f24;
+  border-radius: 8px;
+  border-width: 2px;
+
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: #212529;
+  color: #fff;
+}
+.card.card-break:hover {
+  border-color: #4d5053;
+}
+.card-break.selected {
+  border-color: #4d5053;
+  background-color: #373a3e;
+}
+.card-break .break-icon {
+  padding: 20px;
+  margin: 0 auto;
+}
+.card-break .break-icon img {
+  width: 100%;
+}
+
+.text-white {
+  color: white;
+}
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 55%;
+  gap: 5px;
+}
+
+.timezone-list {
+  max-height: 200px;
+  overflow-y: auto;
+  background: white;
+  color: black !important;
+  border: 1px solid #ddd;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+.timezone-list .form-check {
+  margin: 0;
+  padding: 10px;
+}
+
+.timezone-list .form-check.selected-timezone {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.timezone-list .form-check.selected-timezone .form-check-label {
+  font-weight: bold;
+}
+
+.input-group .input-group-append {
+  display: flex;
+  align-items: center;
+}
+
+.input-group .input-group-append label {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.centered-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

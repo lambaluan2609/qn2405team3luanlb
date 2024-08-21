@@ -1,0 +1,63 @@
+{
+  "name": "hypnos",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-browser": "^3.16.0",
+    "@azure/msal-react": "^2.0.18",
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@react-oauth/google": "^0.12.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "5.0.0",
+    "cypress": "^8.3.0",
+    "jest-junit": "^12.0.0",
+    "jest-junit-reporter": "^1.1.0",
+    "js-base64": "^3.7.7",
+    "jwt-decode": "^4.0.0",
+    "react": "^17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^17.0.2",
+    "react-qr-code": "^2.0.5",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "4.0.3",
+    "selenium-webdriver": "^4.0.0-beta.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "cypress": "cypress open",
+    "start-dev": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest-junit": {
+    "suiteNameTemplate": "{filepath}",
+    "outputDirectory": ".",
+    "outputName": "junit.xml"
+  }
+}
